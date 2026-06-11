@@ -1,0 +1,171 @@
+p {
+    font-family: Baskerville, Georgia, serif;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+h1 {
+    font-size: 34px;
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+a:link {
+    color: #1B2A31;
+    background-color: transparent;
+}
+
+a:visited {
+    color: #5399A0;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #ffffff;
+    background-color: #5399A0;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: #1B2A31;
+}
+
+body {
+    background-color: #f8eaf6;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #BE9F89;
+}
+
+#my_background {
+    background-color: #E0D7C7;
+    border-color: #BE9F89;
+}
+
+#my_interests {
+    background-color: #f0eeea;
+    border-color: #98C3C7;
+}
+
+section h2 {
+    color: #5399A0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+header {
+    background-color: #5399A0;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #98C3C7;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+img {
+    margin: 10px;
+}
+
+ol, ul {
+    margin: 10px;
+}
+
+footer {
+    background-color: #1B2A31;
+    color: #E0D7C7;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header { grid-area: header; }
+nav    { grid-area: nav; }
+main   { grid-area: main-content; }
+footer { grid-area: footer; }
+
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "nav"
+        "main-content"
+        "footer";
+}
+
+/* ---- topic_of_interest.html styles ---- */
+
+#section_sword {
+    background-color: #1B2A31;
+    border-color: #5399A0;
+}
+
+#section_sword h2 {
+    color: #98C3C7;
+}
+
+#section_sword p {
+    color: #E0D7C7;
+}
+
+#sword_caption {
+    font-style: italic;
+    color: #98C3C7;
+    font-size: 16px;
+}
+
+#section_clay {
+    background-color: #f0eeea;
+    border-color: #BE9F89;
+}
+
+#section_food {
+    background-color: #E0D7C7;
+    border-color: #BE9F89;
+}
+
+#animate_btn {
+    margin-top: 14px;
+    padding: 10px 20px;
+    background-color: #5399A0;
+    color: #ffffff;
+    border: none;
+    font-family: "Gill Sans", "Gill Sans MT", Helvetica, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#animate_btn:hover {
+    background-color: #1B2A31;
+}
+
+#animate_target {
+    font-size: 36px;
+    display: inline-block;
+    margin-top: 6px;
+}
